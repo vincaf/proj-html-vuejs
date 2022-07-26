@@ -11,6 +11,11 @@
             </ul>
         </div>
     </div>
+    <div class="logo py-4">
+        <div class="container">
+            <img src="../assets/images/logo-default-slim.png" alt="logo">
+        </div>
+    </div>
   </section>
 </template>
 
@@ -21,8 +26,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variables.scss";
+
 .header_menu{
-    background-color: #0088cc;
+    background-color: $blue_primary;
     color: #fff;
 
     ul{
@@ -31,9 +38,16 @@ export default {
         }
 
         li{
-            margin: 0 10px;
+            margin-right: 10px;
             font-size: 10px;
+            opacity: .9;
         }
+    }
+}
+
+.logo{
+    img{
+        width: 7%;
     }
 }
 </style>
