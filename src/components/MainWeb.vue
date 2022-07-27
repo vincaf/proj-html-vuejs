@@ -1,12 +1,17 @@
 <template>
   <section>
-    
+    <FeaturedArticles />
   </section>
 </template>
 
 <script>
-export default {
+import FeaturedArticles from './FeaturedArticles.vue';
 
+export default {
+  name: 'MainWeb',
+  components: {
+    FeaturedArticles,
+  }
 }
 </script>
 
