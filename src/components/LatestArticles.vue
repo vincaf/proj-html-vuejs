@@ -29,6 +29,122 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="article">
+                    <img class="w-100" src="../assets/images/blog-54.jpg" alt="article_photo">
+                    <div class="info d-flex mt-3">
+                        <div class="date">
+                            <div class="day text-center">12</div>
+                            <div class="month text-center">JAN</div>
+                        </div>
+                        <div class="text ms-3">
+                            <h5 class="title fw-bold">How to Make Friends as a Grown-Up</h5>
+                            <p class="mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad cupiditate nam harum, dolorem quaerat eum dolores quis culpa libero. Ad ipsam ut veniam quod non quidem aliquid nihil, suscipit nulla. [...]</p>
+                            <div class="details d-flex justify-content-between">
+                                <div>
+                                    <span class="icon"><i class="fa-regular fa-user"></i> By</span>
+                                    <span class="detail">John Doe</span>
+                                    <span class="icon"><i class="fa-regular fa-folder"></i></span>
+                                    <span class="detail">Lifestyle, Travel</span>
+                                    <span class="icon"><i class="fa-regular fa-comments"></i></span>
+                                    <span class="detail">12 Comments</span>
+                                </div>
+                                <div>
+                                    <button>READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <img class="w-100" src="../assets/images/blog-54.jpg" alt="article_photo">
+                    <div class="info d-flex mt-3">
+                        <div class="date">
+                            <div class="day text-center">12</div>
+                            <div class="month text-center">JAN</div>
+                        </div>
+                        <div class="text ms-3">
+                            <h5 class="title fw-bold">How to Make Friends as a Grown-Up</h5>
+                            <p class="mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad cupiditate nam harum, dolorem quaerat eum dolores quis culpa libero. Ad ipsam ut veniam quod non quidem aliquid nihil, suscipit nulla. [...]</p>
+                            <div class="details d-flex justify-content-between">
+                                <div>
+                                    <span class="icon"><i class="fa-regular fa-user"></i> By</span>
+                                    <span class="detail">John Doe</span>
+                                    <span class="icon"><i class="fa-regular fa-folder"></i></span>
+                                    <span class="detail">Lifestyle, Travel</span>
+                                    <span class="icon"><i class="fa-regular fa-comments"></i></span>
+                                    <span class="detail">12 Comments</span>
+                                </div>
+                                <div>
+                                    <button>READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <img class="w-100" src="../assets/images/blog-54.jpg" alt="article_photo">
+                    <div class="info d-flex mt-3">
+                        <div class="date">
+                            <div class="day text-center">12</div>
+                            <div class="month text-center">JAN</div>
+                        </div>
+                        <div class="text ms-3">
+                            <h5 class="title fw-bold">How to Make Friends as a Grown-Up</h5>
+                            <p class="mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad cupiditate nam harum, dolorem quaerat eum dolores quis culpa libero. Ad ipsam ut veniam quod non quidem aliquid nihil, suscipit nulla. [...]</p>
+                            <div class="details d-flex justify-content-between">
+                                <div>
+                                    <span class="icon"><i class="fa-regular fa-user"></i> By</span>
+                                    <span class="detail">John Doe</span>
+                                    <span class="icon"><i class="fa-regular fa-folder"></i></span>
+                                    <span class="detail">Lifestyle, Travel</span>
+                                    <span class="icon"><i class="fa-regular fa-comments"></i></span>
+                                    <span class="detail">12 Comments</span>
+                                </div>
+                                <div>
+                                    <button>READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="row row-cols-3 flex-wrap gx-0">
+                        <img class="col" src="../assets/images/blog-13.jpg" alt="article_photo">
+                        <img class="col" src="../assets/images/blog-16.jpg" alt="article_photo">
+                        <img class="col" src="../assets/images/blog-20.jpg" alt="article_photo">
+                        <img class="col" src="../assets/images/blog-23.jpg" alt="article_photo">
+                        <img class="col" src="../assets/images/blog-29.jpg" alt="article_photo">
+                        <img class="col" src="../assets/images/blog-40.jpg" alt="article_photo">
+                    </div>
+                    <div class="info d-flex mt-3">
+                        <div class="date">
+                            <div class="day text-center">12</div>
+                            <div class="month text-center">JAN</div>
+                        </div>
+                        <div class="text ms-3">
+                            <h5 class="title fw-bold">How to Make Friends as a Grown-Up</h5>
+                            <p class="mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad cupiditate nam harum, dolorem quaerat eum dolores quis culpa libero. Ad ipsam ut veniam quod non quidem aliquid nihil, suscipit nulla. [...]</p>
+                            <div class="details d-flex justify-content-between">
+                                <div>
+                                    <span class="icon"><i class="fa-regular fa-user"></i> By</span>
+                                    <span class="detail">John Doe</span>
+                                    <span class="icon"><i class="fa-regular fa-folder"></i></span>
+                                    <span class="detail">Lifestyle, Travel</span>
+                                    <span class="icon"><i class="fa-regular fa-comments"></i></span>
+                                    <span class="detail">12 Comments</span>
+                                </div>
+                                <div>
+                                    <button>READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="col-3"></div>
         </div>
@@ -46,6 +162,8 @@ export default {
 @import "../styles/variables.scss";
 
 .article{
+    margin-bottom: 60px;
+
     .date{
         .day{
             padding: 5px 0;
@@ -85,6 +203,7 @@ export default {
                 font-size: 9px;
                 color: $text_grey;
                 border: 1px solid $text_grey;
+                background-color: #fff;
             }
         }
     }
