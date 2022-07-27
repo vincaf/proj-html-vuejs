@@ -2,18 +2,21 @@
   <div id="app">
     <HeaderWeb />
     <MainWeb />
+    <FooterWeb />
   </div>
 </template>
 
 <script>
 import HeaderWeb from './components/HeaderWeb.vue';
 import MainWeb from './components/MainWeb.vue';
+import FooterWeb from './components/FooterWeb.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderWeb,
     MainWeb,
+    FooterWeb,
   }
 }
 </script>
