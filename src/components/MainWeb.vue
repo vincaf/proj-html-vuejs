@@ -3,6 +3,7 @@
     <FeaturedArticles />
     <PostsList />
     <ArticleCategories />
+    <LatestArticles />
   </section>
 </template>
 
@@ -10,6 +11,7 @@
 import FeaturedArticles from './FeaturedArticles.vue';
 import PostsList from './PostsList.vue';
 import ArticleCategories from './ArticleCategories.vue';
+import LatestArticles from './LatestArticles.vue';
 
 export default {
   name: 'MainWeb',
@@ -17,6 +19,7 @@ export default {
     FeaturedArticles,
     PostsList,
     ArticleCategories,
+    LatestArticles,
   }
 }
 </script>
