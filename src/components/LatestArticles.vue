@@ -145,6 +145,14 @@
                     </div>
                 </div>
 
+                <div class="pages d-flex justify-content-end">
+                    <div class="text-center"><i class="fa-solid fa-angle-left"></i></div>
+                    <div class="text-center active">1</div>
+                    <div class="text-center">2</div>
+                    <div class="text-center">3</div>
+                    <div class="text-center"><i class="fa-solid fa-angle-right"></i></div>
+                </div>
+
             </div>
             <div class="col-3">
                 <div class="social">
@@ -310,6 +318,21 @@ export default {
             color: $blue_primary;
             border-left: 3px solid #d6d6d6;
             cursor: pointer;
+        }
+    }
+}
+
+.pages{
+    div{
+        padding: 5px 8px;
+        font-size: 10px;
+        border: 1px solid $soft_gray;
+        color: $blue_primary;
+        cursor: pointer;
+
+        &.active{
+            background-color: $blue_primary;
+            color: #fff;
         }
     }
 }
