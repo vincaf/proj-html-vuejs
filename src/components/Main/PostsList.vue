@@ -5,94 +5,20 @@
             <div class="col-3">
                 <ul class="list-unstyled">
                     <li class="title mb-2">POPULAR POST</li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-                    
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
+                    <PopularPostList v-for="popularArticle in popularArticles" :key="popularArticle.id" 
+                    :date="popularArticle.date"
+                    :title="popularArticle.title"
+                    :imgUrl="popularArticle.img" />
                 </ul>
             </div>
 
             <div class="col-3">
                 <ul class="list-unstyled">
                     <li class="title mb-2">RECENT POST</li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-                    
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
-                    <li class="d-flex article">
-                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
-                        <div class="ms-2">
-                            <div class="article_title">Simple Ways to Have a Pretty Face</div>
-                            <div class="article_date">January 12, 2019</div>
-                        </div>
-                    </li>
-
+                    <RecentPostList v-for="recentArticle in recentArticles" :key="recentArticle.id" 
+                    :date="recentArticle.date"
+                    :title="recentArticle.title"
+                    :imgUrl="recentArticle.img" />
                 </ul>
             </div>
 
@@ -124,7 +50,93 @@
 </template>
 
 <script>
+import PopularPostList from './PopularPostList.vue';
+import RecentPostList from './RecentPostList.vue';
+
 export default {
+    name: 'PostsList',
+    components: {
+        PopularPostList,
+        RecentPostList,
+    },
+
+    data(){
+        return{
+            popularArticles: [
+                {
+                    id: 1,
+                    date: "January 12, 2019",
+                    title: "Simple Ways to Have a Pretty Face",
+                    img: require("@/assets/images/blog-55.jpg"),
+                },
+
+                {
+                    id: 2,
+                    date: "January 12, 2019",
+                    title: "Ranking the greatest players in basketball",
+                    img: require("@/assets/images/blog-56.jpg"),
+                },
+
+                {
+                    id: 3,
+                    date: "January 12, 2019",
+                    title: "4 Ways to Look Cool in Glasses",
+                    img: require("@/assets/images/blog-57.jpg"),
+                },
+
+                {
+                    id: 4,
+                    date: "January 12, 2019",
+                    title: "Top Camper Trailer Towing Tips",
+                    img: require("@/assets/images/blog-58.jpg"),
+                },
+
+                {
+                    id: 5,
+                    date: "January 12, 2019",
+                    title: "5 Lovely Walks in New York",
+                    img: require("@/assets/images/blog-59.jpg"),
+                },
+            ],
+
+            recentArticles: [
+                {
+                    id: 1,
+                    date: "January 12, 2019",
+                    title: "Main Reasons To Stop Texting And Driving",
+                    img: require("@/assets/images/blog-65.jpg"),
+                },
+
+                {
+                    id: 2,
+                    date: "January 12, 2019",
+                    title: "Tips to Help You Quickly Prepare your Lunch",
+                    img: require("@/assets/images/blog-66 (1).jpg"),
+                },
+
+                {
+                    id: 3,
+                    date: "January 12, 2019",
+                    title: "Why should I buy a smartwatch?",
+                    img: require("@/assets/images/blog-67.jpg"),
+                },
+
+                {
+                    id: 4,
+                    date: "January 12, 2019",
+                    title: "The best augmented reality smartglasses",
+                    img: require("@/assets/images/blog-68.jpg"),
+                },
+
+                {
+                    id: 5,
+                    date: "January 12, 2019",
+                    title: "12 Healthiest Foods to Eat for Breakfast",
+                    img: require("@/assets/images/blog-69.jpg"),
+                },
+            ]
+        }
+    }
 
 }
 </script>
@@ -136,26 +148,6 @@ li{
     &.title{
         font-size: 12px;
         font-weight: bold;
-    }
-
-    &.article{
-        padding: 10px 0;
-        border-bottom: 1px solid #d6d6d6;
-    }
-
-    .article_img{
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-    }
-
-    .article_title{
-        font-size: 12px;
-    }
-
-    .article_date{
-        font-size: 10px;
-        color: $text_grey;
     }
 }
 
