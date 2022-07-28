@@ -33,7 +33,12 @@ export default {
     cursor: pointer;
     position: relative;
     &:hover{
-        background-color: 000;
+        background-color: #fff;
+
+        img{
+            border: 5px solid #fff;
+            opacity: 1;
+        }
     }
 
 
@@ -44,10 +49,6 @@ export default {
         top: 0;
         opacity: .7;
         position: absolute;
-        &:hover{
-            border: 5px solid #fff;
-            opacity: 1;
-        }
     }
 
     .category{
