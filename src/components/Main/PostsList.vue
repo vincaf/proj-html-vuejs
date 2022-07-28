@@ -26,6 +26,7 @@
                 <ul class="list-unstyled">
                     <li class="title mb-2">FEATURED POST</li>
                     <div class="box d-flex flex-column justify-content-end">
+                        <img src="../../assets/images/blog-66.jpg" alt="featured_post">
                         <span class="category">
                             RECIPES
                         </span>
@@ -153,14 +154,24 @@ li{
 
 .col-4{
     .box{
-        background-image: url("../../assets/images/blog-66.jpg");
-        background-size: cover;
+        background-color: #000;
         height: 150px;
         width: 375px;
         padding: 20px;
         margin: 30px 0;
+        position: relative;
+
+        img{
+            height: 150px;
+            width: 375px;
+            left: 0;
+            top: 0;
+            opacity: .7;
+            position: absolute;
+        }
 
         .category{
+            z-index: 1;
             font-size: 10px;
             width: 56px;
             padding: 5px;
@@ -170,6 +181,7 @@ li{
         }
 
         .title{
+            z-index: 1;
             color: #fff;
             font-weight: bold;
             line-height: 18px;
