@@ -47,19 +47,7 @@
                 <div class="col-2">
                     <div class="title">CATEGORIES</div>
                     <div class="d-flex flex-wrap">
-                        <span class="tags">GADGETS</span>
-                        <span class="tags">PHOTOGRAPHY</span>
-                        <span class="tags">LIFESTYLE</span>
-                        <span class="tags">FASHION</span>
-                        <span class="tags">RECIPES</span>
-                        <span class="tags">TRAVEL</span>
-                        <span class="tags">BUSINESS</span>
-                        <span class="tags">ARCHITECTURE</span>
-                        <span class="tags">REVIEWS</span>
-                        <span class="tags">SPORTS</span>
-                        <span class="tags">VIDEOS</span>
-                        <span class="tags">TECHNOLOGY</span>
-                        <span class="tags">DESIGN</span>
+                        <span class="tags" v-for="(category, index) in categories" :key="index"> {{category}} </span>
                     </div>
                 </div>
             </div>
@@ -69,7 +57,11 @@
 
 <script>
 export default {
-
+  data(){
+        return{
+            categories: [ 'GADGETS', 'PHOTOGRAPHY', 'LIFESTYLE', 'FASHION', 'RECIPES', 'TRAVEL', 'BUSINESS', 'ARCHITECTURE', 'REVIEWS', 'SPORTS', 'VIDEO', 'TECHNOLOGY', 'DESIGN',],
+        }
+  }
 }
 </script>
 
