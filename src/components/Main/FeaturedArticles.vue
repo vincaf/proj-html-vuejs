@@ -67,13 +67,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/variables.scss";
+@import "../../styles/variables.scss";
 
 section{
     background-color: $bg_light_grey;
 
     .box{
-        background-image: url("../assets/images/blog-46.jpg");
+        background-image: url("../../assets/images/blog-46.jpg");
         background-size: cover;
         height: 200px;
         width: 375px;

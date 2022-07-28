@@ -8,8 +8,8 @@
 
 <script>
 import HeaderWeb from './components/HeaderWeb.vue';
-import MainWeb from './components/MainWeb.vue';
-import FooterWeb from './components/FooterWeb.vue';
+import MainWeb from './components/Main/MainWeb.vue';
+import FooterWeb from './components/Footer/FooterWeb.vue';
 
 export default {
   name: 'App',

@@ -7,7 +7,7 @@
                     <li class="title mb-2">POPULAR POST</li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -15,7 +15,7 @@
                     </li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -23,7 +23,7 @@
                     </li>
                     
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -31,7 +31,7 @@
                     </li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -39,7 +39,7 @@
                     </li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -54,7 +54,7 @@
                     <li class="title mb-2">RECENT POST</li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -62,7 +62,7 @@
                     </li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -70,7 +70,7 @@
                     </li>
                     
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -78,7 +78,7 @@
                     </li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -86,7 +86,7 @@
                     </li>
 
                     <li class="d-flex article">
-                        <img class="article_img" src="../assets/images/blog-55.jpg" alt="pic articolo">
+                        <img class="article_img" src="../../assets/images/blog-55.jpg" alt="pic articolo">
                         <div class="ms-2">
                             <div class="article_title">Simple Ways to Have a Pretty Face</div>
                             <div class="article_date">January 12, 2019</div>
@@ -109,7 +109,7 @@
                     </div>
                     <li class="title mb-2">FEATURED AUTHOR</li>
                     <li class="d-flex align-items-center">
-                        <img class="author_img" src="../assets/images/avatar.jpg" alt="author">
+                        <img class="author_img" src="../../assets/images/avatar.jpg" alt="author">
                         <div class="ms-2">
                             <div class="author_title">John Doe</div>
                             <div class="author_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa doloremque assumenda veritatis quaerat. Illum minima accusantium</div>
@@ -130,7 +130,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/variables.scss";
+@import "../../styles/variables.scss";
 
 li{
     &.title{
@@ -161,7 +161,7 @@ li{
 
 .col-4{
     .box{
-        background-image: url("../assets/images/blog-66.jpg");
+        background-image: url("../../assets/images/blog-66.jpg");
         background-size: cover;
         height: 150px;
         width: 375px;

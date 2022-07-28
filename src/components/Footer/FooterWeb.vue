@@ -18,14 +18,14 @@
                 <div class="col-3">
                     <div class="title">RECENT POSTS</div>
                     <div class="d-flex">
-                        <img class="click" src="../assets/images/our-office-4-square.jpg" alt="recent-post-1">
+                        <img class="click" src="../../assets/images/our-office-4-square.jpg" alt="recent-post-1">
                         <div class="ms-2">
                             <p class="mb-1 click">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <p class="subtitle">12:53 AM Dec 19th</p>
                         </div>
                     </div>
                     <div class="d-flex">
-                        <img class="click" src="../assets/images/our-office-5-square.jpg" alt="recent-post-1">
+                        <img class="click" src="../../assets/images/our-office-5-square.jpg" alt="recent-post-1">
                         <div class="ms-2">
                             <p class="mb-1 click">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <p class="subtitle">12:53 AM Dec 19th</p>
@@ -75,7 +75,7 @@
         <div class="container">
             <div class="d-flex py-3 justify-content-between">
                 <div class="d-flex align-items-center">
-                    <img src="../assets/images/logo-footer.png" alt="">
+                    <img src="../../assets/images/logo-footer.png" alt="">
                     <div class="ms-5">© Copyright 2022. All Rights Reserved</div>
                 </div>
                 <div class="d-flex align-items-center">
@@ -104,7 +104,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/variables.scss";
+@import "../../styles/variables.scss";
 
 .signboard{
     background-color: $blue_primary;

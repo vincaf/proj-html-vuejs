@@ -4,7 +4,7 @@
         <div class="row py-5">
             <div class="col-9">
                 <div class="article">
-                    <img class="w-100" src="../assets/images/blog-54.jpg" alt="article_photo">
+                    <img class="w-100" src="../../assets/images/blog-54.jpg" alt="article_photo">
                     <div class="info d-flex mt-3">
                         <div class="date">
                             <div class="day text-center">12</div>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="article">
-                    <img class="w-100" src="../assets/images/blog-54.jpg" alt="article_photo">
+                    <img class="w-100" src="../../assets/images/blog-54.jpg" alt="article_photo">
                     <div class="info d-flex mt-3">
                         <div class="date">
                             <div class="day text-center">12</div>
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="article">
-                    <img class="w-100" src="../assets/images/blog-54.jpg" alt="article_photo">
+                    <img class="w-100" src="../../assets/images/blog-54.jpg" alt="article_photo">
                     <div class="info d-flex mt-3">
                         <div class="date">
                             <div class="day text-center">12</div>
@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="article">
-                    <img class="w-100" src="../assets/images/blog-54.jpg" alt="article_photo">
+                    <img class="w-100" src="../../assets/images/blog-54.jpg" alt="article_photo">
                     <div class="info d-flex mt-3">
                         <div class="date">
                             <div class="day text-center">12</div>
@@ -113,12 +113,12 @@
 
                 <div class="article">
                     <div class="row row-cols-3 flex-wrap gx-0">
-                        <img class="col" src="../assets/images/blog-13.jpg" alt="article_photo">
-                        <img class="col" src="../assets/images/blog-16.jpg" alt="article_photo">
-                        <img class="col" src="../assets/images/blog-20.jpg" alt="article_photo">
-                        <img class="col" src="../assets/images/blog-23.jpg" alt="article_photo">
-                        <img class="col" src="../assets/images/blog-29.jpg" alt="article_photo">
-                        <img class="col" src="../assets/images/blog-40.jpg" alt="article_photo">
+                        <img class="col" src="../../assets/images/blog-13.jpg" alt="article_photo">
+                        <img class="col" src="../../assets/images/blog-16.jpg" alt="article_photo">
+                        <img class="col" src="../../assets/images/blog-20.jpg" alt="article_photo">
+                        <img class="col" src="../../assets/images/blog-23.jpg" alt="article_photo">
+                        <img class="col" src="../../assets/images/blog-29.jpg" alt="article_photo">
+                        <img class="col" src="../../assets/images/blog-40.jpg" alt="article_photo">
                     </div>
                     <div class="info d-flex mt-3">
                         <div class="date">
@@ -186,12 +186,12 @@
                     <div id="instagram">
                         <div class="title py-2">LATEST FROM INSTAGRAM</div>
                         <div class="row row-cols-3 flex-wrap gx-0">
-                            <img class="col" src="../assets/images/29739607_2020680068220520_4509928046932787200_n.jpg" alt="article_photo">
-                            <img class="col" src="../assets/images/30087804_253872848488989_8792603541668626432_n.jpg" alt="article_photo">
-                            <img class="col" src="../assets/images/29415620_196477127626244_3250318472361541632_n.jpg" alt="article_photo">
-                            <img class="col" src="../assets/images/30078414_1274410412703843_8290935809419247616_n.jpg" alt="article_photo">
-                            <img class="col" src="../assets/images/30077195_2066750973610181_3733150062893596672_n.jpg" alt="article_photo">
-                            <img class="col" src="../assets/images/29415304_166583630713703_1032667922171953152_n.jpg" alt="article_photo">
+                            <img class="col" src="../../assets/images/29739607_2020680068220520_4509928046932787200_n.jpg" alt="article_photo">
+                            <img class="col" src="../../assets/images/30087804_253872848488989_8792603541668626432_n.jpg" alt="article_photo">
+                            <img class="col" src="../../assets/images/29415620_196477127626244_3250318472361541632_n.jpg" alt="article_photo">
+                            <img class="col" src="../../assets/images/30078414_1274410412703843_8290935809419247616_n.jpg" alt="article_photo">
+                            <img class="col" src="../../assets/images/30077195_2066750973610181_3733150062893596672_n.jpg" alt="article_photo">
+                            <img class="col" src="../../assets/images/29415304_166583630713703_1032667922171953152_n.jpg" alt="article_photo">
                         </div>
                     </div>
 
@@ -225,7 +225,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/variables.scss";
+@import "../../styles/variables.scss";
 
 .article{
     margin-bottom: 60px;
