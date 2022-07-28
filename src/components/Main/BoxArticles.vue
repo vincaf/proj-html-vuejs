@@ -30,6 +30,7 @@ export default {
     width: 375px;
     padding: 20px;
     margin-bottom: 30px;
+    cursor: pointer;
     position: relative;
 
     img{
