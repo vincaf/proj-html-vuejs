@@ -2,12 +2,7 @@
   <section>
     <div class="container">
         <div class="d-flex justify-content-around py-5">
-            <span>GADGETS</span>
-            <span>PHOTOGRAPHY</span>
-            <span>LIFESTYLE</span>
-            <span>FASHION</span>
-            <span>RECIPES</span>
-            <span>TRAVEL</span>
+            <span v-for="(category, index) in categories" :key="index"> {{category}} </span>
         </div>
     </div>
   </section>
@@ -15,6 +10,11 @@
 
 <script>
 export default {
+  data(){
+        return{
+            categories: [ 'GADGETS', 'PHOTOGRAPHY', 'LIFESTYLE', 'FASHION', 'RECIPES', 'TRAVEL'],
+        }
+  }
 
 }
 </script>
