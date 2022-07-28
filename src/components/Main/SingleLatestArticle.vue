@@ -42,6 +42,10 @@ export default {
 .article{
     margin-bottom: 60px;
 
+    img{
+        cursor: pointer;
+    }
+
     .date{
         .day{
             padding: 5px 0;
@@ -60,9 +64,14 @@ export default {
 
     .text{
 
+        .title{
+            cursor: pointer;
+        }
+
         p{
             font-size: 13px;
             color: $text_grey;
+            cursor: pointer;
         }
 
         .details{

@@ -126,9 +126,14 @@ export default {
 
     .text{
 
+        .title{
+            cursor: pointer;
+        }
+        
         p{
             font-size: 13px;
             color: $text_grey;
+            cursor: pointer;
         }
 
         .details{
