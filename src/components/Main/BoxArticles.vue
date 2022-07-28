@@ -7,6 +7,9 @@
         <div class="title">
             {{ title }}
         </div>
+        <div class="text mt-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repudiandae expedita.
+        </div>
     </div>
 </template>
 
@@ -39,6 +42,10 @@ export default {
             border: 5px solid #fff;
             opacity: 1;
         }
+
+        .text{
+            display: inline-block;
+        }
     }
 
 
@@ -68,6 +75,13 @@ export default {
         font-weight: bold;
         line-height: 18px;
         margin-top: 8px;
+    }
+
+    .text{
+        display: none;
+        font-size: 10px;
+        color: $soft_gray;
+        z-index: 1;
     }
 }
 </style>
