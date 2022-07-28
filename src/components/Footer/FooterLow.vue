@@ -4,7 +4,7 @@
             <div class="d-flex py-3 justify-content-between">
                 <div class="d-flex align-items-center">
                     <img src="../../assets/images/logo-footer.png" alt="">
-                    <div class="ms-5">© Copyright 2022. All Rights Reserved</div>
+                    <div class="ms-5 copyright">© Copyright 2022. All Rights Reserved</div>
                 </div>
                 <div class="d-flex align-items-center">
                     <div class="fw-bold click">
@@ -45,6 +45,10 @@ export default {
     img{
         width: 15%;
         opacity: .5;
+    }
+
+    .copyright{
+        opacity: .8;
     }
 
     a{
