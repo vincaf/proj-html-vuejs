@@ -159,6 +159,7 @@ li{
         width: 375px;
         padding: 20px;
         margin: 30px 0;
+        cursor: pointer;
         position: relative;
 
         img{
